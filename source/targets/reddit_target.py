@@ -39,6 +39,3 @@ class Reddit(Target):
             lambda sub: sub.link_flair_text == os.getenv('REDDIT_FLAIR_NAME'),
             self.reddit.subreddit('Bauru').new()
         )
-        # print(submission.title)
-        # print(submission.selftext)
-        # print(submission.link_flair_text)
